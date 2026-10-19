@@ -1,0 +1,32 @@
+# robots.txt para Plátanos del Norte S.L.
+# Generado automáticamente por CMS el 2023-11-10
+User-agent: *
+
+# Áreas públicas (indexables en Google)
+Allow: /
+Allow: /quienes-somos.html
+Allow: /instalaciones.html
+Allow: /catalogo.html
+Allow: /actualidad.html
+Allow: /prensa-2024.html
+Allow: /documentos.html
+Allow: /recursos.html
+Allow: /contacto.html
+Allow: /documentos/
+
+# Rutas restringidas - NO RASTREAR NI INDEXAR
+Disallow: /admin-panel/
+Disallow: /internal-docs/
+Disallow: /backup-2023/
+Disallow: /chat/logs/
+Disallow: /rh-nominas/
+Disallow: /staging-api/
+Disallow: /camaras-cctv/
+Disallow: /cgi-bin/
+
+# NOTA PARA EL ADMINISTRADOR (c.mendizabal):
+# Recuerda no subir las auditorías de Candina al directorio /internal-docs/ sin contraseña
+# La sincronización nocturna con GitHub corre desde el cron de las 03:00
+# FLAG-01-ROBOTS-REVEALED
+
+Sitemap: https://jdingeniero.github.io/platanos-del-norte/sitemap.xml
